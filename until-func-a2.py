@@ -7,3 +7,6 @@ out = until(10, lambda x: x%3==0 or x%5==0, 0)
 print(out)
 # >>> [0, 3, 5, 6, 9]   
 
+out = until(10, lambda x: x>2 and x<8, 0)
+print(out)
+# >>> [3, 4, 5, 6, 7]   
