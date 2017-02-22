@@ -1,4 +1,4 @@
-#This is an iterable
+#This is an generator
 mygenerator = (x*x for x in range(4))
 for i in mygenerator:
     print(i)
